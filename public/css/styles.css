@@ -214,6 +214,13 @@ h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
   display: block;
 }
 .spec-card:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.spec-card__icon {
+  width: 56px; height: 56px; border-radius: 50%;
+  background: linear-gradient(135deg, var(--verde), var(--verde-light));
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto 12px; box-shadow: 0 4px 12px rgba(27,94,59,0.2);
+}
+.spec-card__icon svg { stroke: var(--white); }
 .spec-card svg { margin: 0 auto 8px; }
 .spec-card__name { font-size: 0.8125rem; font-weight: 600; color: var(--text); }
 
