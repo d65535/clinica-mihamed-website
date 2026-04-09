@@ -10,8 +10,7 @@ function renderHeader() {
     '<header class="header">' +
       '<div class="header__inner">' +
         '<a href="/" class="header__logo">' +
-          '<img src="/img/logo-mihamed.png" alt="Clinica MihaMed" width="150" height="60">' +
-          '<span class="header__brand">CLINICA <span>MIHAMED</span></span>' +
+          '<img src="/img/logo-mihamed.png" alt="Clinica MihaMed" width="200" height="80">' +
         '</a>' +
         '<nav class="header__nav">' +
           '<a href="/specializari.html"' + isActive('/specializari') + '>Specializări</a>' +
