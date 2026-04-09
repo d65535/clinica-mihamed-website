@@ -11,7 +11,7 @@ function renderHeader() {
       '<div class="header__inner">' +
         '<a href="/" class="header__logo">' +
           '<img src="/img/logo-mihamed.png" alt="Clinica MihaMed" width="150" height="60">' +
-          '<span class="header__brand">CLINICA <span>+</span>MIHAMED</span>' +
+          '<span class="header__brand">CLINICA <span>MIHAMED</span></span>' +
         '</a>' +
         '<nav class="header__nav">' +
           '<a href="/specializari.html"' + isActive('/specializari') + '>Specializări</a>' +

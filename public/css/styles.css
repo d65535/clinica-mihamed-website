@@ -84,8 +84,11 @@ h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
 }
 .header__logo { display: flex; align-items: center; gap: 10px; }
 .header__logo img { height: 36px; width: auto; }
-.header__brand { font-size: 0.875rem; font-weight: 700; color: var(--text); }
-.header__brand span { color: var(--verde); }
+.header__brand {
+  font-size: 1.125rem; font-weight: 700; color: var(--text);
+  letter-spacing: 0.5px; line-height: 1.2;
+}
+.header__brand span { color: var(--verde); display: block; font-size: 1.25rem; }
 .header__nav { display: flex; gap: 24px; }
 .header__nav a {
   font-size: 0.8125rem; color: var(--text); font-weight: 500;
@@ -225,7 +228,7 @@ h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
   background: rgba(255,255,255,0.2); color: var(--white);
   font-size: 1.25rem; font-weight: 700;
 }
-.doc-card__avatar img { width: 100%; height: 100%; object-fit: cover; }
+.doc-card__avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
 .doc-card__info { padding: 16px; text-align: center; }
 .doc-card__name { font-size: 0.875rem; font-weight: 600; color: var(--text); }
 .doc-card__spec { font-size: 0.75rem; color: var(--verde); margin-top: 4px; }
