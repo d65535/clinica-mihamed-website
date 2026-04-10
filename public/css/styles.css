@@ -247,6 +247,8 @@ h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
 .doc-card__avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .doc-card__avatar img[src*="dr-radu-mihaela"],
 .doc-card__avatar img[src*="dr-craciun-ioana"] { object-position: center top; }
+.doc-card__avatar img[src*="dr-ad-fares"] { object-position: center 70%; }
+.doc-card__avatar img[src*="diana-stanciu"] { object-position: center 40%; }
 .doc-card__info { padding: 16px; text-align: center; }
 .doc-card__name { font-size: 0.875rem; font-weight: 600; color: var(--text); }
 .doc-card__spec { font-size: 0.75rem; color: var(--verde); margin-top: 4px; }
@@ -371,6 +373,8 @@ h3 { font-size: 1.125rem; font-weight: 600; line-height: 1.4; }
 .doctor-card-inline__avatar img { width: 100%; height: 100%; object-fit: cover; object-position: center 25%; }
 .doctor-card-inline__avatar img[src*="dr-radu-mihaela"],
 .doctor-card-inline__avatar img[src*="dr-craciun-ioana"] { object-position: center top; }
+.doctor-card-inline__avatar img[src*="dr-ad-fares"] { object-position: center 70%; }
+.doctor-card-inline__avatar img[src*="diana-stanciu"] { object-position: center 40%; }
 .doctor-card-inline__avatar svg { stroke: var(--white); }
 .doctor-card-inline__info { flex: 1; }
 .doctor-card-inline .btn { margin-left: auto; flex-shrink: 0; }
