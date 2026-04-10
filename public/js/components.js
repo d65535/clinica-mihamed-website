@@ -18,7 +18,6 @@ function renderHeader() {
           '<a href="/preturi.html"' + isActive('/preturi') + '>Prețuri</a>' +
           '<a href="/contact.html"' + isActive('/contact') + '>Contact</a>' +
         '</nav>' +
-        '<a href="/contact.html" class="header__cta btn btn--primary">Programează-te</a>' +
         '<button class="nav-toggle" id="navToggle" aria-label="Meniu" aria-expanded="false">' +
           '<span></span><span></span><span></span>' +
         '</button>' +
